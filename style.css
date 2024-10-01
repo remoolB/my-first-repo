@@ -1,0 +1,98 @@
+/* 通用样式 */
+body {
+    font-family: '微软雅黑', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* 淡蓝色背景 */
+    text-align: center;
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* 介绍区域 */
+#introduction {
+    padding: 50px;
+    background-color: #e6f7ff; /* 浅蓝色背景 */
+}
+
+/* 作品集样式 */
+#portfolio {
+    padding: 50px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-items .item {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+/* 悬停效果 */
+.portfolio-items .item:hover {
+    transform: translateY(-10px);
+}
+
+/* 图片画廊样式 */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #e6f7ff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 登录页面样式 */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-container button {
+    padding: 10px 20px;
+}
+
+/* 返回按钮样式 */
+a {
+    display: inline-block;
+    margin: 20px;
+    color: #007acc;
+    text-decoration: none;
+}
+
+/* 链接悬停效果 */
+a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    display: inline-block; /* 保持视频为块级元素并居中 */
+    margin-bottom: 20px; /* 让视频之间有一些间距 */
+}
